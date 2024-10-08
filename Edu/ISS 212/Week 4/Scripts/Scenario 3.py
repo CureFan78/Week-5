@@ -1,7 +1,7 @@
 
 # input of data amount
 data_usage = int(input("How Much Data Did You Use?: "))
-# math formula to determine
+# math formula to determine path to take
 if data_usage <= 85528:
      tax = (0.18 * data_usage) - 556
 elif  data_usage > 85528:
