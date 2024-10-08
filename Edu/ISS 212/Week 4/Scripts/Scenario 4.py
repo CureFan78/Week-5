@@ -1,6 +1,9 @@
+#input the year
 year = int(input("What Year Is It?: "))
-if year > 2000:
+#prevent dates above 2000
+if year > 2019:
     print("Does Not Work")
+#decide which trype of year depending on divisibility
 elif year % 4 != 0 and year % 400 != 0:
         print(f"{year} is a Standard Year")
 elif year  % 100 != 0:
